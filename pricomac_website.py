@@ -19,7 +19,7 @@ with col1:
           st.write(resize,width=60)
           
      with col4:
-         st.title(f"Priscomac Data Solutions")
+         st.title("Priscomac Data Solutions")
     
     
 with col2:
