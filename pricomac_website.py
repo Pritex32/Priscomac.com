@@ -54,6 +54,11 @@ At Priscomac,
                 to scale your analytics efforts, Priscomac is here to support you with expertise, innovation, and integrity.
                 """)
     st.markdown("### 📌 [**👉 Book Now**]('https://github.com/Pritex32/rocky_art_booking_service')")
+
+
+    
+    st.markdown("---")
+
     col1,col2=st.columns([3,1])
     with col1:
          st.subheader('Vision')
