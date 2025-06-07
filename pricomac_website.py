@@ -62,8 +62,12 @@ st.subheader('Developed softwares')
 trading='Priscomac.com ・ Web Service ・ Render Dashboard and 18 more pages - Profile 1 - Microsoft​ Edge 6_7_2025 3_22_07 PM.png'
 opentrade=Image.open(trading)
 st.write(opentrade)
+st.subheader('Dashboards')
+dashboard='Personal Health Dashboard · Streamlit and 13 more pages - Profile 1 - Microsoft​ Edge 4_27_2025 8_29_56 AM (2).png'
+image_dash=Image.open(dashbaord)
+st.write(image_dash)
              
-    col1,col2=st.columns([3,1])
+col1,col2=st.columns([3,1])
     with col1:
          st.subheader('Vision')
          st.info("To empower people and businesses by delivering innovative, data-driven solutions to real-world problems.")
