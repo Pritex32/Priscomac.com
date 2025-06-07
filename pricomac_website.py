@@ -61,6 +61,7 @@ At Priscomac,
     st.subheader('Developed softwares')
     col5,col6=st.columns(2)
     with col5:
+        st.subheader('Forex trading software')
         trading='Priscomac.com ・ Web Service ・ Render Dashboard and 18 more pages - Profile 1 - Microsoft​ Edge 6_7_2025 3_22_07 PM.png'
         opentrade=Image.open(trading)
         st.image(opentrade)
@@ -80,24 +81,24 @@ At Priscomac,
 elif choice == "Services":
     st.header("Priscomac Core Services:")
     st.markdown("""
-- Data Analysis & Visualization: Discover insights and create dashboards.
+- **Data Analysis & Visualization:** Discover insights and create dashboards.
 
-- Predictive Modeling & Machine Learning: Forecasting, classification, and recommendations.
+- **Predictive Modeling & Machine Learning:** Forecasting, classification, and recommendations.
 
-- Data Cleaning & Preparation: Organize and preprocess data for analysis.
+- **Data Cleaning & Preparation:** Organize and preprocess data for analysis.
 
-- Business Intelligence & Strategy: Turn data into actionable business plans.
+- **Business Intelligence & Strategy:** Turn data into actionable business plans.
 
-- Natural Language Processing: Analyze text data like reviews or social media.
+- **Natural Language Processing:** Analyze text data like reviews or social media.
 
-- Data Engineering & Automation: Build pipelines and automate data tasks.
+- **Data Engineering & Automation:** Build pipelines and automate data tasks.
 
-- Custom Apps & Software: Develop data-driven applications and dashboards.
+- **Custom Apps & Software:** Develop data-driven applications and dashboards.
 - Cloud computing, computer vision & model deployment               
 
-- Training & Workshops: Teach data skills to individuals or teams.
+- **Training & Workshops:** Teach data skills to individuals or teams.
 
-- Advanced Analytics: Conduct A/B tests, pricing optimization, and customer analytics.
+- **Advanced Analytics:** Conduct A/B tests, pricing optimization, and customer analytics.
 
 """)
 elif choice == "Projects":
