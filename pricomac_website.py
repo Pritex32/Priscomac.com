@@ -62,7 +62,7 @@ At Priscomac,
     col5,col6=st.columns(2)
     with col5:
         st.subheader('Forex trading software')
-        trading='Priscomac.com ・ Web Service ・ Render Dashboard and 18 more pages - Profile 1 - Microsoft​ Edge 6_7_2025 3_22_07 PM.png'
+        trading='Priscomac.com ・ Web Service ・ Render Dashboard and 18 more pages - Profile 1 - Microsoft​ Edge 6_7_2025 3_22_07 PM (2).png'
         opentrade=Image.open(trading)
         st.image(opentrade)
     with col6:
