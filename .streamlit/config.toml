@@ -1,6 +1,8 @@
 [theme]
-primaryColor = "#FF0000"            # Bold red for buttons, sliders, etc.
-backgroundColor = "#FFFFFF"         # White background
-secondaryBackgroundColor = "#FFF1F1"  # Very light red (pinkish) for containers
-textColor = "#000000"               # Black text
+primaryColor = "#B71C1C"              # Red
+backgroundColor = "#FFFFFF"           # White
+secondaryBackgroundColor = "#FDECEC"  # Light pink/red tint
+textColor = "#000000"                 # Black
 font = "sans serif"
+
+             # Other options: "serif", "monospace"
