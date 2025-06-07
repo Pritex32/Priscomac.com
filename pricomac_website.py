@@ -70,8 +70,10 @@ At Priscomac,
         dashboard='Personal Health Dashboard · Streamlit and 13 more pages - Profile 1 - Microsoft​ Edge 4_27_2025 8_29_56 AM (2).png'
         image_dash=Image.open(dashboard)
         st.image(image_dash)
-
-
+    booking='Editing Priscomac.com_pricomac_website.py at main · Pritex32_Priscomac.com and 18 more pages - Profile 1 - Microsoft​ Edge 6_7_2025 4_33_44 PM (2).png'
+    book_image=Image.open(booking)
+    book_resize=book_image.resize((500,500))
+    st.image(book_resize)
    
              
     col1,col2=st.columns([3,1])
