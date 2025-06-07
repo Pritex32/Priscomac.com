@@ -58,7 +58,11 @@ At Priscomac,
 
     
     st.markdown("---")
-
+st.subheader('Developed softwares')
+trading='Priscomac.com ・ Web Service ・ Render Dashboard and 18 more pages - Profile 1 - Microsoft​ Edge 6_7_2025 3_22_07 PM.png'
+opentrade=Image.open(trading)
+st.write(opentrade)
+             
     col1,col2=st.columns([3,1])
     with col1:
          st.subheader('Vision')
