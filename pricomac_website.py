@@ -9,7 +9,7 @@ st.set_page_config(
 # Inject Bootstrap CSS from CDN
 from PIL import Image
 # Simple colored horizontal bar
-image=r'C:\Users\USER\Pictures\IMG-20250531-WA0006 (2).jpg'
+image='IMG-20250531-WA0006 (2).jpg'
 open_image=Image.open(image)
 resize=open_image.resize((100,50))
 col1,col2=st.columns([3,1])
