@@ -70,6 +70,9 @@ At Priscomac,
         dashboard='Personal Health Dashboard · Streamlit and 13 more pages - Profile 1 - Microsoft​ Edge 4_27_2025 8_29_56 AM (2).png'
         image_dash=Image.open(dashboard)
         st.image(image_dash)
+
+
+   
              
     col1,col2=st.columns([3,1])
     with col1:
@@ -109,3 +112,34 @@ elif choice == "Contact":
     st.header("Contact")
     if st.button('Contact us'):
          st.markdown('https://www.linkedin.com/in/prisca-ukanwa-800a1117a/')
+
+
+
+
+
+
+
+
+
+
+# add footer
+st.markdown("""
+<style>
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #C62828;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    z-index: 999;
+}
+</style>
+
+<footer>
+    © 2025 Priscomac Data Solutions | Built with ❤️ @ pritex32
+</footer>
+""", unsafe_allow_html=True)
+
