@@ -8,25 +8,7 @@ st.set_page_config(
 )
 
 # add header
-st.markdown("""
-<style>
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #C62828;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 14px;
-    z-index: 999;
-}
-</style>
 
-<footer>
-    © 2025 Priscomac Data Solutions | Built with ❤️ @ pritex32
-</footer>
-""", unsafe_allow_html=True)
 
 # Inject Bootstrap CSS from CDN
 from PIL import Image
@@ -102,8 +84,7 @@ At Priscomac,
     col1,col2=st.columns([3,1])
     with col1:
         st.subheader('Vision')
-        st.info("To empower people and businesses by delivering innovative, 
-        data-driven solutions to real-world problems.")
+        st.info("To empower people and businesses by delivering innovative,  data-driven solutions to real-world problems.")
     with col2:
         st.subheader('Mission')
         st.info("To lead the way in data science innovation — turning information into insight, and insight into intelligent action for a better tomorrow.")
