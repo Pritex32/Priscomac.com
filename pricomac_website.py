@@ -136,7 +136,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #C62828;
+    background-color: #1C1C1C;
     color: white;
     text-align: center;
     padding: 10px;
