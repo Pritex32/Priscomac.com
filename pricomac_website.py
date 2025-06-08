@@ -18,7 +18,7 @@ open_image=Image.open(image)
 resize=open_image.resize((100,50))
 col1,col2=st.columns([3,1])
 with col1:
-     col3,col4=st.columns([5,1])
+     col3,col4=st.columns([1,3])
      with col3:
           st.image(resize)
           
