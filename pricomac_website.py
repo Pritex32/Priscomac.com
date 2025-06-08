@@ -84,7 +84,8 @@ At Priscomac,
     col1,col2=st.columns([3,1])
     with col1:
         st.subheader('Vision')
-        st.info("To empower people and businesses by delivering innovative,n/ data-driven solutions to real-world problems.")
+        st.info("To empower people and businesses by delivering innovative,\n data-driven solutions to real-world problems.")
+
     with col2:
         st.subheader('Mission')
         st.info("To lead the way in data science innovation — turning information into insight,and insight into intelligent action for a better tomorrow.")
