@@ -36,7 +36,7 @@ choice = st.radio("Navigate 👇", menu, horizontal=True)
 # Simple colored horizontal bar
 st.markdown("""
 <div style='
-    background-color: #4CAF50;
+    background-color: #1C1C1C;
     height: 5px;
     width: 100%;
     margin-top: 10px;
@@ -84,10 +84,10 @@ At Priscomac,
     col1,col2=st.columns([3,1])
     with col1:
         st.subheader('Vision')
-        st.info("To empower people and businesses by delivering innovative,  data-driven solutions to real-world problems.")
+        st.info("To empower people and businesses by delivering innovative,n/ data-driven solutions to real-world problems.")
     with col2:
         st.subheader('Mission')
-        st.info("To lead the way in data science innovation — turning information into insight, and insight into intelligent action for a better tomorrow.")
+        st.info("To lead the way in data science innovation — turning information into insight,and insight into intelligent action for a better tomorrow.")
 elif choice == "Services":
     st.header("Priscomac Core Services:")
     st.markdown("""
